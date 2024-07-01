@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html dir="auto" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="Fables" />
+        <meta name="author" content="Enterprise Development" />
+        <link rel="shortcut icon" href="assets/custom/images/favicon.png" />
+        <title>КриптоКвота</title>
+
+        <!-- animate.css-->
+        <link
+            href="assets/vendor/animate.css-master/animate.min.css"
+            rel="stylesheet"
+        />
+        <!-- Load Screen -->
+        <link
+            href="assets/vendor/loadscreen/css/spinkit.css"
+            rel="stylesheet"
+        />
+        <!-- GOOGLE FONT -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+            rel="stylesheet"
+        />
+        <!-- Font Awesome 5 -->
+        <link
+            href="assets/vendor/fontawesome/css/fontawesome-all.min.css"
+            rel="stylesheet"
+        />
+        <!-- Fables Icons -->
+        <link href="assets/custom/css/fables-icons.css" rel="stylesheet" />
+        <!-- Bootstrap CSS -->
+        <link
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/bootstrap/css/bootstrap-4-navbar.css"
+            rel="stylesheet"
+        />
+        <!-- portfolio filter gallery -->
+        <link
+            href="assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.css"
+            rel="stylesheet"
+        />
+        <!-- FANCY BOX -->
+        <link
+            href="assets/vendor/fancybox-master/jquery.fancybox.min.css"
+            rel="stylesheet"
+        />
+        <!-- RANGE SLIDER -->
+        <link
+            href="assets/vendor/range-slider/range-slider.css"
+            rel="stylesheet"
+        />
+        <!-- OWL CAROUSEL  -->
+        <link
+            href="assets/vendor/owlcarousel/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/owlcarousel/owl.theme.default.min.css"
+            rel="stylesheet"
+        />
+        <!-- FABLES CUSTOM CSS FILE -->
+        <link href="assets/custom/css/custom.css" rel="stylesheet" />
+        <!-- FABLES CUSTOM CSS RESPONSIVE FILE -->
+        <link href="assets/custom/css/custom-responsive.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="search-section">
+            <a class="close-search" href="#"></a>
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <form method="post" action="#" class="w-50">
+                    <div class="row">
+                        <div class="col-10">
+                            <input
+                                type="search"
+                                value=""
+                                class="form-control palce bg-transparent border-0 search-input"
+                                placeholder="Search Here ..."
+                            />
+                        </div>
+                        <div class="col-2 mt-3">
+                            <button
+                                type="submit"
+                                class="btn bg-transparent text-white"
+                            >
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Loading Screen -->
+        <div id="ju-loading-screen">
+            <div class="sk-double-bounce">
+                <div class="sk-child sk-double-bounce1"></div>
+                <div class="sk-child sk-double-bounce2"></div>
+            </div>
+        </div>
+
+        <!-- /End Top Header -->
+        <div
+            style="background-color: #5c6a77; margin-bottom: 50px"
+            class="fables-transparent py-3 py-lg-0"
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 pr-md-0">
+                        <nav
+                            class="navbar navbar-expand-md btco-hover-menu py-lg-2"
+                        >
+                            <a
+                                class="navbar-brand fables-logo-brand pl-0"
+                                href="index.html"
+                                style="
+                                    color: rgb(229, 77, 66);
+                                    font-weight: bold;
+                                    font-size: 25px;
+                                "
+                                >КриптоКвота</a
+                            >
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#fablesNavDropdown"
+                                aria-controls="fablesNavDropdown"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span
+                                    class="fables-iconmenu-icon text-white font-16"
+                                ></span>
+                            </button>
+                            <div
+                                class="collapse navbar-collapse"
+                                id="fablesNavDropdown"
+                            >
+                                <ul class="navbar-nav mx-auto fables-nav">
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="index.html"
+                                            id="sub-nav1"
+                                            aria-haspopup="true"
+                                            aria-expanded="false"
+                                            >Главная</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="about1.html"
+                                            id="sub-nav2"
+                                            aria-haspopup="true"
+                                            aria-expanded="false"
+                                            >О нас</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="services.html"
+                                            id="sub-nav3"
+                                            aria-haspopup="true"
+                                            aria-expanded="false"
+                                            >Услуги</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="blog.html"
+                                            id="sub-nav3"
+                                            aria-haspopup="true"
+                                            aria-expanded="false"
+                                            >Блог</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="contactus1.html"
+                                            id="sub-nav3"
+                                            aria-haspopup="true"
+                                            aria-expanded="false"
+                                            >Контакты</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main style="margin-top: 100px">
+            <article class="container additional-wrapper">
+                <div class="page__content" style="padding: 20px 0px">
+                    <h1>Политика конфиденциальности</h1>
+
+                    <h2>Введение</h2>
+                    <p>
+                        Мы ценим вашу конфиденциальность и стремимся защищать
+                        ваши личные данные. В данной Политике конфиденциальности
+                        описаны методы сбора, использования и защиты вашей
+                        информации, а также ваши права в отношении ваших
+                        персональных данных.
+                    </p>
+                    <p>
+                        Мы понимаем, что конфиденциальность важна для наших
+                        клиентов, особенно когда речь идет о финансовых услугах,
+                        таких как криптовалюты, трейдинг и инвестиции. Мы
+                        обязуемся защищать вашу информацию и обеспечивать
+                        прозрачность в том, как мы с ней работаем.
+                    </p>
+
+                    <h2>1. Сбор информации</h2>
+                    <p>
+                        Мы можем собирать различные виды информации о вас, когда
+                        вы используете наши услуги:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Личная информация:</strong> имя, контактные
+                            данные (электронная почта, номер телефона), адрес,
+                            информация о банковском счете.
+                        </li>
+                        <li>
+                            <strong>Финансовая информация:</strong> данные о
+                            ваших инвестициях, доходах от трейдинга и других
+                            финансовых активностях.
+                        </li>
+                        <li>
+                            <strong>Техническая информация:</strong> IP-адрес,
+                            данные о вашем устройстве и браузере, информация о
+                            посещениях нашего веб-сайта и использовании наших
+                            онлайн-сервисов.
+                        </li>
+                        <li>
+                            <strong>Информация о криптовалютах:</strong> данные
+                            о ваших транзакциях, портфеле и других операциях с
+                            криптовалютами.
+                        </li>
+                    </ul>
+
+                    <h2>2. Использование информации</h2>
+                    <p>
+                        Мы используем собранную информацию для различных целей:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Предоставление услуг:</strong> обработка
+                            ваших запросов, выполнение финансовых операций,
+                            предоставление консультаций и рекомендаций по
+                            инвестициям.
+                        </li>
+                        <li>
+                            <strong>Улучшение наших услуг:</strong> анализ ваших
+                            предпочтений и поведения, чтобы улучшить качество и
+                            ассортимент предоставляемых услуг.
+                        </li>
+                        <li>
+                            <strong>Маркетинг и коммуникации:</strong>
+                            информирование вас о новых продуктах, услугах,
+                            специальных предложениях и новостях, связанных с
+                            криптовалютами, трейдингом и инвестициями.
+                        </li>
+                        <li>
+                            <strong>Безопасность:</strong> обеспечение
+                            безопасности ваших данных и предотвращение
+                            мошенничества и других незаконных действий.
+                        </li>
+                    </ul>
+
+                    <h2>3. Передача информации третьим лицам</h2>
+                    <p>
+                        Мы можем передавать вашу информацию третьим лицам в
+                        следующих случаях:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Поставщики услуг:</strong> мы можем
+                            привлекать сторонние компании для выполнения
+                            определенных функций, таких как обработка платежей,
+                            анализ данных и маркетинговые исследования. Эти
+                            компании обязаны соблюдать конфиденциальность ваших
+                            данных и использовать их только для выполнения своих
+                            обязанностей.
+                        </li>
+                        <li>
+                            <strong>Законодательные требования:</strong> мы
+                            можем передавать вашу информацию государственным
+                            органам или другим организациям, если это требуется
+                            по закону или в ответ на законные запросы.
+                        </li>
+                        <li>
+                            <strong>Сделки слияния и поглощения:</strong> в
+                            случае реорганизации, слияния или продажи наших
+                            активов мы можем передать вашу информацию новым
+                            владельцам компании.
+                        </li>
+                    </ul>
+
+                    <h2>4. Защита информации</h2>
+                    <p>
+                        Мы принимаем все необходимые меры для защиты вашей
+                        информации от несанкционированного доступа, изменения,
+                        раскрытия или уничтожения. Эти меры включают:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Технические меры:</strong> использование
+                            шифрования, систем контроля доступа и других
+                            современных технологий для защиты данных.
+                        </li>
+                        <li>
+                            <strong>Организационные меры:</strong> ограничение
+                            доступа к данным только тем сотрудникам, которые
+                            нуждаются в них для выполнения своих обязанностей.
+                        </li>
+                        <li>
+                            <strong>Процедурные меры:</strong> регулярные
+                            проверки и аудит безопасности, а также обучение
+                            сотрудников по вопросам защиты данных.
+                        </li>
+                    </ul>
+
+                    <h2>5. Ваши права</h2>
+                    <p>
+                        Вы имеете следующие права в отношении ваших персональных
+                        данных:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Право на доступ:</strong> вы можете
+                            запросить копию ваших персональных данных, которые
+                            мы храним.
+                        </li>
+                        <li>
+                            <strong>Право на исправление:</strong> вы можете
+                            запросить исправление неточной или неполной
+                            информации о вас.
+                        </li>
+                        <li>
+                            <strong>Право на удаление:</strong> вы можете
+                            потребовать удаления ваших данных, если они больше
+                            не нужны для тех целей, для которых были собраны,
+                            или если вы отозвали свое согласие на их обработку.
+                        </li>
+                        <li>
+                            <strong>Право на ограничение обработки:</strong> вы
+                            можете запросить ограничение обработки ваших данных
+                            в определенных случаях, например, если вы
+                            оспариваете точность данных.
+                        </li>
+                        <li>
+                            <strong>Право на переносимость данных:</strong> вы
+                            можете получить ваши данные в структурированном,
+                            машиночитаемом формате и передать их другому
+                            контролеру данных.
+                        </li>
+                        <li>
+                            <strong>Право на возражение:</strong> вы можете
+                            возражать против обработки ваших данных в
+                            определенных случаях, например, для маркетинговых
+                            целей.
+                        </li>
+                    </ul>
+
+                    <h2>6. Политика в отношении детей</h2>
+                    <p>
+                        Наши услуги не предназначены для использования лицами
+                        младше 18 лет. Мы не собираем сознательно личную
+                        информацию о детях. Если нам станет известно, что мы
+                        получили личную информацию от ребенка без проверки
+                        согласия родителей, мы удалим эту информацию как можно
+                        скорее.
+                    </p>
+
+                    <h2>7. Файлы cookie и другие технологии</h2>
+                    <p>
+                        Мы используем файлы cookie и другие технологии для сбора
+                        информации о вашем использовании нашего веб-сайта и
+                        улучшения его работы. Файлы cookie позволяют нам
+                        распознавать ваш браузер и запоминать определенную
+                        информацию. Вы можете настроить свой браузер на отказ от
+                        файлов cookie или предупреждение об их использовании, но
+                        это может повлиять на работу некоторых функций нашего
+                        веб-сайта.
+                    </p>
+
+                    <h2>8. Изменения в Политике конфиденциальности</h2>
+                    <p>
+                        Мы можем время от времени обновлять данную Политику
+                        конфиденциальности. Мы уведомим вас о любых существенных
+                        изменениях, разместив обновленную Политику на нашем
+                        веб-сайте и указав дату последнего обновления.
+                        Рекомендуем вам периодически проверять эту страницу,
+                        чтобы быть в курсе изменений.
+                    </p>
+
+                    <h2>9. Контактная информация</h2>
+                    <p>
+                        Если у вас есть вопросы или пожелания относительно
+                        данной Политики конфиденциальности, или если вы хотите
+                        воспользоваться своими правами в отношении ваших
+                        персональных данных, пожалуйста, свяжитесь с нами:
+                    </p>
+                    <p>
+                        **Адрес:** Scharfe Lanke 109-131, 13595 Berlin,
+                        Германия<br />
+                        **Телефон:** +493020898990<br />
+                        **Email:** pro_fin_quote@gmail.com
+                    </p>
+                    <p>
+                        Мы стремимся обеспечить защиту вашей конфиденциальности
+                        и готовы ответить на любые ваши вопросы.
+                    </p>
+
+                    <h2>10. Дополнительная информация</h2>
+                    <p>
+                        Для получения дополнительной информации о том, как мы
+                        обрабатываем ваши данные, пожалуйста, ознакомьтесь с
+                        нашими Условиями использования и другими
+                        соответствующими документами, которые доступны на нашем
+                        веб-сайте.
+                    </p>
+
+                    <h2>Заключение</h2>
+                    <p>
+                        Защита вашей конфиденциальности и безопасности ваших
+                        данных является нашим приоритетом. Мы обязуемся
+                        соблюдать все применимые законы и нормативные акты, а
+                        также принимать все необходимые меры для обеспечения
+                        конфиденциальности и безопасности ваших данных.
+                        Благодарим вас за доверие и уверены, что наши усилия по
+                        защите ваших данных помогут вам чувствовать себя
+                        уверенно, используя наши услуги в области криптовалют,
+                        трейдинга и инвестиций.
+                    </p>
+                </div>
+            </article>
+        </main>
+
+        <!-- Start Footer 2 Background Image  -->
+        <div
+            class="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules"
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                        <a
+                            class="navbar-brand fables-logo-brand pl-0"
+                            href="index.html"
+                            style="
+                                color: rgb(229, 77, 66);
+                                font-weight: bold;
+                                font-size: 25px;
+                            "
+                            >КриптоКвота</a
+                        >
+                        <p class="font-15 fables-third-text-color">
+                            Наша команда всегда готова ответить на ваши вопросы
+                            и предоставить дополнительную информацию. Вы можете
+                            связаться с нами по телефону +77212909677 или
+                            отправить письмо на наш электронный адрес
+                            evolve_partners@gmail.com. Мы ценим каждого клиента
+                            и стремимся обеспечить наивысший уровень
+                            обслуживания.
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <h2
+                            class="font-20 semi-font fables-second-border-color border-bottom pb-3"
+                        >
+                            Свяжитесь с нами
+                        </h2>
+                        <div class="my-3">
+                            <h4 class="font-16 semi-font">
+                                <span
+                                    class="fables-iconmap-icon fables-second-text-color pr-2 font-20 mt-1 d-inline-block"
+                                ></span>
+                                Информация о адресе
+                            </h4>
+                            <p
+                                class="font-14 fables-fifth-text-color mt-2 ml-4"
+                            >
+                                ул. Новгородская 3/2, Караганда 100004,
+                                Казахстан
+                            </p>
+                        </div>
+                        <div class="my-3">
+                            <h4 class="font-16 semi-font">
+                                <span
+                                    class="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block"
+                                ></span>
+                                Позвоните нам
+                            </h4>
+                            <p
+                                class="font-14 fables-fifth-text-color mt-2 ml-4"
+                            >
+                                +77212909677
+                            </p>
+                        </div>
+                        <div class="my-3">
+                            <h4 class="font-16 semi-font">
+                                <span
+                                    class="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block"
+                                ></span>
+                                Email
+                            </h4>
+                            <p
+                                class="font-14 fables-fifth-text-color mt-2 ml-4"
+                            >
+                                evolve_partners@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <h2
+                            class="font-20 semi-font fables-second-border-color border-bottom pb-3 mb-3"
+                        >
+                            Исследуйте наш сайт
+                        </h2>
+                        <ul class="nav fables-footer-links">
+                            <li><a href="about1.html">Главная</a></li>
+                            <li><a href="about1.html">О нас</a></li>
+                            <li><a href="blog.html">Блог</a></li>
+                            <li><a href="services.html">Услуги</a></li>
+                            <li><a href="contactus1.html">Контакты</a></li>
+                            <li>
+                                <a href="terms-of-use.html"
+                                    >Условия использования</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /End Footer 2 Background Image -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <header>
+                <i class="bx bx-cookie"></i>
+                <h2>Согласие на использование файлов cookie</h2>
+            </header>
+
+            <div class="data">
+                <p>
+                    Наш сайт использует файлы cookie для предоставления вам
+                    более удобного и релевантного опыта во время просмотра
+                    сайта.
+                    <a href="#">Узнать больше...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+        <script src="assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+        <script src="assets/vendor/jquery-circle-progress/circle-progress.min.js"></script>
+        <script src="assets/vendor/popper/popper.min.js"></script>
+        <script src="assets/vendor/jQuery.countdown-master/jquery.countdown.min.js"></script>
+        <script src="assets/vendor/timeline/jquery.timelify.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap-4-navbar.js"></script>
+        <script src="assets/vendor/WOW-master/dist/wow.min.js"></script>
+        <script src="assets/vendor/owlcarousel/owl.carousel.min.js"></script>
+        <script src="assets/custom/js/jquery-data-to.js"></script>
+        <script src="assets/vendor/jquery-circle-progress/circle.js"></script>
+        <script src="assets/vendor/portfolio-filter-gallery/jquery.isotope.min.js"></script>
+        <script src="assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.js"></script>
+        <script src="assets/vendor/fancybox-master/jquery.fancybox.min.js"></script>
+        <script src="assets/custom/js/custom.js"></script>
+        <script src="assets/custom/js/contact-form.js"></script>
+        <script src="assets/custom/js/cookiebanner.js"></script>
+    </body>
+</html>
