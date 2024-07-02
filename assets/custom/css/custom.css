@@ -3707,3 +3707,10 @@ header h2 {
 .progress-bar {
     background-color: #e667af;
 }
+
+.privacy-main,
+.terms-main {
+    @media (max-width: 772px) {
+        margin-top: 0px !important;
+    }
+}

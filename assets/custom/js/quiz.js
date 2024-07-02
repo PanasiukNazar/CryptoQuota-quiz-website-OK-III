@@ -144,9 +144,6 @@ const finalStep = {
         $container.innerHTML = `
         <div class="container quiz-wrapper">
             <div class="row quiz-content">
-                <div class="col-lg-6 col-md-6 col-lg-6 form-image">
-                    <img class="quiz-img" src="assets/custom/images/quiz-1.jpg">
-                </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 form-block">
                     <h2 class="title">CryptoQuota</h2>
                     <h3 class="mb-4">Fill out the form to get free access to five of the most effective strategies in cryptocurrency trading.</h3>
@@ -162,7 +159,7 @@ const finalStep = {
                             )
                             .join('')}
                 
-                        <button data-action="submitAnswers" class="btn btn-primary w-50 py-3 first-button">Send</button>
+                        <button data-action="submitAnswers" class="btn btn-primary w-100 py-3 first-button">Send</button>
                     </form>
                 </div>
             </div>
