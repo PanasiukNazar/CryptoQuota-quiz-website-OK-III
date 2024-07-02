@@ -3714,3 +3714,10 @@ header h2 {
         margin-top: 0px !important;
     }
 }
+
+@media (max-width: 772px) {
+    .about-link,
+    .contact-link {
+        display: none;
+    }
+}
